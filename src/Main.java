@@ -17,17 +17,16 @@ public class Main {
         one[0]=1;
         one[1]=2;
         one [2]=3;
-        for (int i =0 ; i < one.length ;i++){   // не могу понять как решить...
-            if ( one[0]% 2==0 ){one[0]= one[0]+1;
+        for (int i =0 ; i < one.length ;i++){   // Переделал)все получилось, исправил условине на 2 !=0.
+            if (one[0]% 2 !=0 ){one[0]= one[0]+1;
                 System.out.println(one[0]);}
-        if (one[2] % 2 ==0 ){one[2]=one[2]+ 1;}}
-
-
-
-
-
+        if (one[2] % 2!=0  ){one[2]=one[2]+ 1;}}
 
         System.out.print(one[0]+","+ one[1]+','+ one[2] );
+
+
+
+
 
 
         //task 2
@@ -44,5 +43,7 @@ public class Main {
         System.out.println(one[2]+","+ one[1]+','+ one[0]);
         System.out.println( two[2]+","+ two[1]+','+ two[0] );
         System.out.println( three[1]+","+ three[0] );
+
+
     }
 }
